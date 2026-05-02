@@ -63,11 +63,13 @@ User → Rate Solution
 - Limited UI responsiveness
 
 ## 👨‍💻 My Contribution
-- Designed and implemented role-based home pages
-- Developed Admin, Staff, and User dashboards
-- Implemented session-based access control
+
+- Contributed to overall system design and development
+- Worked on Admin, Staff, and User dashboards
+- Helped implement role-based access control
 - Contributed to UI design and CSS styling
-- Tested login redirection and role routing
+- Tested login redirection, role routing, and bug workflow
+- Participated in the final report and presentation
 
 ## Team Members
 This project was developed by Group 8 for Software Engineering II.
