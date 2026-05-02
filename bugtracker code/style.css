@@ -1,0 +1,219 @@
+/* ~~~~~~ GLOBAL FONT ~~~~~~ */
+
+body {
+    margin: 0;
+    font-family: 'Century Gothic', 'Segoe UI', Tahoma, sans-serif;
+}
+
+
+/* ~~~~~~ HEADER STYLE ~~~~~~ */
+
+.main-header {
+    background-color: #D8D3FF; /* pink */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 40px;
+    box-sizing: border-box;
+}
+
+.main-header img {
+    height: 95px;
+}
+
+.header-nav {
+    flex: 1;
+}
+
+.container {
+    min-height: 70vh;
+    padding: 20px;
+}
+
+.center-page {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ~~~~~~ LOGIN CARD ~~~~~~ */
+
+.form-card {
+    background: linear-gradient(135deg, #B7E5FF, #BFD7FF); /* baby blue - lavender */
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    color: #2F2F2F;
+}
+
+.form-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-card input {
+    color: #2F2F2F;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+}
+
+.form-card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #D8D3FF;
+    color: #2F2F2F;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form-card button:hover {
+    background-color: #D3D3D3;
+}
+
+/* ~~~~~~ LINK STYLING ~~~~~~ */
+
+.form-card a {
+    color: #2F2F2F;
+}
+
+.form-card a:hover {
+    color: white;
+}
+
+/* ~~~~~~ DASHBOARD BOX ~~~~~~ */
+
+.section-card {
+    background: linear-gradient(135deg, #B7E5FF, #D8D3FF); /* baby blue - pink */
+    padding: 25px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #2F2F2F;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.sub-header {
+    background-color: #D8D3FF; /* pink */
+    color: #5B5B5B; /* dark gray */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    box-sizing: border-box;
+}
+
+.sub-header a {
+    color: #5B5B5B; /* dark gray */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sub-header a:hover {
+    color: #D3D3D3; /* light gray */
+}
+
+/* ~~~~~~ TOP MENU BAR ~~~~~~ */
+
+.menu-bar {
+    width: 100%;
+    background-color: #B7E5FF; /* baby blue */
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 12px 40px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.menu-bar span {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: #2F2F2F;
+    font-weight: normal;
+}
+
+.menu-bar a:hover {
+    color: #6B1414;
+}
+
+/* ~~~~~~ LINKS INSIDE BOX ~~~~~~ */
+
+.menu-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu-links a {
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #2F2F2F;
+}
+
+.menu-links a:hover {
+    background-color: #D3D3D3;
+}
+
+/* ~~~~~~ DROPDOWN MENU ~~~~~~ */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #B7E5FF;
+    min-width: 180px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    padding: 10px 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 8px 15px;
+    color: #2F2F2F;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #D8D3FF;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.assign-card {
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.btn-white {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: #2F2F2F;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-white:hover {
+    background-color: #D3D3D3;
+}
