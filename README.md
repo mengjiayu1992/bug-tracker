@@ -68,3 +68,10 @@ User → Rate Solution
 - Implemented session-based access control
 - Contributed to UI design and CSS styling
 - Tested login redirection and role routing
+
+## Team Members
+This project was developed by Group 8 for Software Engineering II.
+- Mengjia Yu
+- Roxanne Caicedo
+- Jorge Cuautle
+- Taiwo Ojo
